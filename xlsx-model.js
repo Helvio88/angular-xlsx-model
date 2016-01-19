@@ -46,7 +46,7 @@
                                                                 wb.SheetNames,
                                                                 function(
                                                                     name) {
-                                                                    master[f.name][name] = XLSX.utils
+                                                                    master[f.name][name.trim()] = XLSX.utils
                                                                         .sheet_to_json(wb.Sheets[name]);
                                                                 });
                                                         if (f === el[0].files[len]) {
