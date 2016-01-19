@@ -74,7 +74,7 @@
                                                     wb.SheetNames,
                                                     function(
                                                         name) {
-                                                        data[name] = XLSX.utils
+                                                        data[name.trim()] = XLSX.utils
                                                             .sheet_to_json(wb.Sheets[name]);
                                                     });
                                             modelSetter(
