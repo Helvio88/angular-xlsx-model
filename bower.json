@@ -1,6 +1,7 @@
 {
   "name": "xlsx-model",
   "main": "xlsx-model.js",
+  "version": "0.1.0"
   "authors": [
     "Helvio Pedreschi <helvio88@gmail.com>"
   ],
