@@ -3,7 +3,7 @@ angular-xlsx-model
 
 Angular directive to convert XLSX files into JSON directly into the model.
 
-Not compatible with Internet Explorer. It doens't support JS readAsBinaryString. Will not fix.
+Not compatible with Internet Explorer. It doesn't support JS readAsBinaryString. Will not fix.
 
 Usage
 -----
